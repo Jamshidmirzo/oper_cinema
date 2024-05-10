@@ -140,7 +140,7 @@ class Homepage extends StatelessWidget {
               'Recomendation for you',
               style: TextStyle(color: Colors.white, fontSize: 20),
             ),
-          const  SizedBox(
+            const SizedBox(
               height: 20,
             ),
             SingleChildScrollView(

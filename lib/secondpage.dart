@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:oper_cinema/cartoons.dart';
+
 import 'package:oper_cinema/thirdpage.dart';
 import 'package:oper_cinema/wrapitem.dart';
 
@@ -12,6 +12,7 @@ class Secondpage extends StatelessWidget {
         backgroundColor: Color.fromARGB(255, 3, 42, 103),
       ),
       body: SingleChildScrollView(
+        physics: ClampingScrollPhysics(),
         child: Container(
           padding: const EdgeInsets.all(20),
           color: Color.fromARGB(255, 3, 42, 103),
